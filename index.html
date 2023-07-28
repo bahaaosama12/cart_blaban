@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,100;0,400;1,300&family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- start navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-around">
+              <li class="nav-item">
+                <a class="nav-link active fw-bold p-lg-3 " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold p-lg-3" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold p-lg-3" href="#">Rewards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-dark fw-bold p-lg-3" href="#">Find Store <i class="fa-solid fa-location-dot  fs-5" style="color: #0d6efd;"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+            <span class="text-secondary fw-bold me-3">Your Cart</span>
+            <div class="shopping text-warning">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="quantity">0</span>
+            </div>
+
+            <div class="bag">
+                <h3>Your Cart &nbsp; <i class="fa-solid fa-cart-shopping"></i></h3>
+                <ul id="listbag">
+                </ul>
+                <div class="checkOut">
+                    <div id="total">0</div>
+                    <div class="closeShopping">Close</div>
+                    <button type="button" class="btn btn-warning Order" id="Order">Order Now</button>
+                </div>
+            </div>
+
+
+            <button type="button" class="btn btn-light mx-3 border border-dark rounded-pill">Sign In</button>
+            <button type="button" class="btn btn-dark me-5 rounded-pill">Join Now</button>
+        </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar end -->
+      <main class="container vh-100 " >
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 product-perant ">
+            <div class="col mb-3 product" price="35">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt1.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold">كريب اللوتس</h5>
+                        <p  class="card-text d-flex justify-content-end  fw-bold">السعر: 35 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product " price="30">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt2.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold"> بان كيك لوتس</h5>
+                        <p  class="card-text d-flex justify-content-end  fw-bold">السعر: 30 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="30">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt3.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold">  ام علي بالمسكرات</h5>
+                        <p  class="card-text d-flex justify-content-end  fw-bold">السعر: 30 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="25">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt4.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold"> كسكسي بالمسكرات</h5>
+                        <p class="card-text d-flex justify-content-end  fw-bold">السعر: 25 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="35">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt5.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold"> رز بلبن لوتس</h5>
+                        <p  class="card-text d-flex justify-content-end  fw-bold">السعر: 35 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="30">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt6.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold"> بليلة بالمسكرات</h5>
+                        <p class="card-text d-flex justify-content-end  fw-bold">السعر: 30 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="40">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt7.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold">  ميلك شيك</h5>
+                        <p  class="card-text d-flex justify-content-end  fw-bold">السعر: 40 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="40">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt8.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold">   براونيز بالآيس</h5>
+                        <p  class="card-text d-flex justify-content-end  fw-bold">السعر: 40 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-3 product" price="40">
+                <div class="card">
+                    <img class="rounded " src="./img/dessrt9.jpg" alt="dessert image">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title d-flex justify-content-end  fw-bold">    وافل ستيك</h5>
+                        <p class="card-text d-flex justify-content-end  fw-bold">السعر: 40 جنية</p>
+                        <button class="btn btn-primary add-item">أضف إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+      </div>
+    </main>
+    <script src="./js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>

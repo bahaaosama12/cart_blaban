@@ -1,0 +1,97 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    box-sizing: b;
+}
+
+.navbar-brand img{
+    width: 5rem;
+    height: 4rem;
+}
+.product-perant{
+  margin-top: 100px;
+}
+.shopping {
+    font-size: 1.5rem;
+    position: relative;
+    display: inline-block;
+  }
+  .shopping span {
+    position: absolute;
+    top: -17px;
+    right:8px;
+    color: rgb(45, 45, 45);
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  .card img{
+    height: 20rem;
+    width: 100%;
+  }
+
+  .bag{
+    background-color: aliceblue;
+    position: fixed;
+    top: 0%;
+    right: 0;
+    width: 25rem;
+    height: 100vh;
+    z-index: 3;
+    border-radius: 5px;
+    transition:all 0.5s;
+    display: none;
+    border-radius: 5px;
+  }
+
+  .active .bag{
+  display: block;
+}
+
+  .bag h3{
+    color: #fff;
+    background-color: #ce9b00;
+    font-weight: 500;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#listbag {
+padding: 0 ; 
+}
+
+.bag .checkOut{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 5px;
+}
+.bag .checkOut div{
+    background-color: #0d6efd;
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bag .checkOut div:nth-child(2){
+    background-color: #212529;
+    color: #fff;
+}
+.Order{
+  width: 200%;
+  border-radius: 0%;
+  height: 3rem;
+}
+
